@@ -136,20 +136,21 @@ section{
 }
 #intro .wrap .intro .block{
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     align-items: center;
-    margin-bottom: 40px;
-}
-#intro .wrap .intro .block:last-child{
-    margin-bottom: 20px;
+    flex-wrap: wrap;
+    column-gap: 4%;
+    row-gap: 20px;
 }
 #intro .wrap .intro .rela{
     position: relative;
 }
 #intro .wrap .intro .block .menu{
-    width: 320px;
-    line-height: 80px;;
-    display: block;
+    width: 22%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-align: center;
     border: 2px solid #0769ad;
     border-radius: 10px;
