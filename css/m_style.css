@@ -129,10 +129,10 @@
         padding: 0 20px;
         height: 412px;
         overflow: scroll;
+        gap:4%;
     }
     #tech .wrap ul li .abso .mob button{
-        width: 21.09375%;
-        margin: 5px 6.25px;
+        width: 22%;
         font-size: 12px;
         color: #000;
     }
@@ -149,9 +149,6 @@
     }
     #tech .wrap ul li .abso div .html{
         line-height: 67.5px;
-    }
-    #tech .wrap ul li .abso div .html:first-child{
-        margin-top: 5px;
     }
     #tech .wrap ul li .abso div .css{
         line-height: 67.5px;
